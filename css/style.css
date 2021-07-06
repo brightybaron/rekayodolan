@@ -7,7 +7,6 @@ html {
 }
 
 .navbar-brand {
-  font-family: Noto Sans;
   font-size: 15px;
 }
 
@@ -64,15 +63,17 @@ html {
 .caption span.border {
   background-color: #111;
   color: #fff;
+  text-shadow: 3px 3px 5px black;
   padding: 10px;
   font-size: 18px;
   letter-spacing: 10px;
 }
 
 h3 {
-  letter-spacing: 5px;
+  font-family: Montserrat;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font-weight: bold;
+  letter-spacing: 8px;
   color: #111;
 }
 
@@ -86,15 +87,6 @@ h3 {
   }
 }
 
-#main-info,
-#booking {
-  padding-top: 5rem;
-}
-
-#kontak {
-  padding-top: 3.5rem;
-}
-
 .accordion-body {
   color: black;
   background-color: #e2e2e2;
@@ -105,6 +97,7 @@ h3 {
   position: relative;
   height: 400px;
   width: 100%;
+  opacity: 0.8;
 }
 
 .slider.fullscreen {
