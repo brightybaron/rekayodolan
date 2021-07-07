@@ -16,7 +16,10 @@ html {
 
 #judul1 {
   font-family: Noto Sans;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 3px 3px 3px black;
+  letter-spacing: 10px;
+  font-weight: 500;
+  color: white;
 }
 
 #faqc {
