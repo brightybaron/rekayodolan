@@ -223,3 +223,25 @@ h3 {
 .right-align {
   text-align: right;
 }
+
+.tombol {
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+}
+.tombol:hover {
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
+}
