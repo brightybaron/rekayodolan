@@ -10,6 +10,10 @@ html {
   font-size: 15px;
 }
 
+.nav-item {
+  margin: 2px;
+}
+
 #judul {
   font-family: Montserrat;
 }
@@ -25,8 +29,8 @@ html {
 #main-info {
   background-color: whitesmoke;
   color: #777;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 3.75rem;
+  padding-bottom: 1rem;
   position: relative;
 }
 
@@ -34,8 +38,8 @@ html {
 #booking {
   background-color: #282e34;
   color: #ddd;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 3.75rem;
+  padding-bottom: 1rem;
   position: relative;
 }
 
@@ -43,6 +47,7 @@ html {
   padding-top: 3.5rem;
 }
 
+/* parallax */
 .bgimg-1,
 .bgimg-2,
 .bgimg-3,
@@ -122,6 +127,7 @@ h3 {
   height: 400px;
   width: 100%;
   opacity: 0.8;
+  margin-top: 3.5rem;
 }
 
 .slider.fullscreen {
