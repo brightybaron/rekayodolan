@@ -22,6 +22,23 @@ html {
   color: white;
 }
 
+#main-info {
+  background-color: whitesmoke;
+  color: #777;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+#kontak,
+#booking {
+  background-color: #282e34;
+  color: #ddd;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
 #faqc {
   padding-top: 3.5rem;
 }
@@ -85,14 +102,14 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and (max-device-width: 1024px) {
   .bgimg-1,
   .bgimg-2,
   .bgimg-3,
   .bgimg-4 {
     background-attachment: scroll;
   }
-}
+} */
 
 .accordion-body {
   color: black;
