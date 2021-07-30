@@ -30,3 +30,7 @@ M.Slider.init(slider, {
   transition: 700,
   interval: 3000,
 });
+
+// modal
+var myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
+myModal.toggle();
