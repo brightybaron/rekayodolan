@@ -4,20 +4,32 @@ html {
   color: #777;
 }
 
+.navbar {
+  background-color: #333;
+  padding: 0.3rem 0rem;
+}
 .navbar-brand {
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-brand img {
+  height: 35px;
+  width: 35px;
+}
+
+.navbar-toggler {
+  padding: 0.1rem 0.25rem;
+  font-size: 1.25rem;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
 }
 
 .nav-item {
   margin: 2px;
-}
-
-#judul1 {
-  font-family: Noto Sans;
-  text-shadow: 3px 3px 3px black;
-  letter-spacing: 10px;
-  font-weight: 500;
-  color: white;
 }
 
 #main-info {
@@ -32,7 +44,7 @@ html {
 #booking {
   background-color: #282e34;
   color: #ddd;
-  padding-top: 3.75rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   position: relative;
 }
@@ -70,8 +82,30 @@ html {
 }
 
 .bgimg-4 {
-  background-image: url("../img/bromo-ngopi-bareng.jpg");
+  background-image: url("../img/bromo-savana.jpg");
   min-height: 100%;
+}
+
+.bgimg-2 .caption span.border {
+  background-color: transparent;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.bgimg-3 .caption span.border {
+  background-color: transparent;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #f7f7f7;
+}
+
+.bgimg-4 .caption span.border {
+  background-color: transparent;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-family: "Sriracha", cursive;
 }
 
 .caption {
@@ -90,15 +124,6 @@ html {
   padding: 10px;
   font-size: 18px;
   letter-spacing: 10px;
-}
-
-h3 {
-  font-family: Montserrat;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 8px;
-  color: #111;
-  line-height: 1.2;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -178,7 +203,29 @@ h3 {
 }
 
 .slider .slides li .caption p {
-  color: #e0e0e0;
+  font-family: "Tillana", cursive;
+  text-shadow: 3px 3px 3px black;
+  letter-spacing: 10px;
+  color: white;
+  position: relative;
+  top: 25px;
+}
+
+.slider .slides li .caption h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #111;
+}
+
+.slider .slides li .caption h2 {
+  font-family: "Bad Script", cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #111;
+  padding-top: 10px;
 }
 
 .slider .slides li.active {
@@ -242,4 +289,19 @@ h3 {
   color: #fff;
   background-color: #157347;
   border-color: #146c43;
+}
+
+.nav-link {
+  color: #777;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: black;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white;
+  background-color: #5c636a;
 }

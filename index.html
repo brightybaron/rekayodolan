@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://badakgunung.xyz/" />
     <meta name="description" content="Mau booking trip wisata ke Gunung Bromo? Yuk intip disini. Badak Gunung adalah agen wisata di wilayah Taman Nasional Bromo Tengger Semeru, Indonesia. Kami menyediakan jasa untuk menjelajahi dan menikmati pemandangan Gunung Bromo yang menakjubkan dengan mengendarai kendaraan 4x4. Come on and enjoy the ride with us!" />
     <meta name="keywords" content="open trip wisata gunung bromo, trip bromo, wisata bromo, badak gunung, bromo, trip, wisata" />
     <meta property="og:url" content="https://badakgunung.xyz/" />
@@ -16,11 +17,17 @@
     <meta name="twitter:description" content="Mau booking trip wisata ke Gunung Bromo? Yuk intip disini" />
     <meta name="twitter:creator" content="BadakGunung" />
     <meta name="twitter:image:src" content="https://badakgunung.xyz/img/bromo.jpg" />
+    <link rel="apple-touch-icon" href="img/logo3.jpg">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"  />
     <!-- CSS dewe -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Fjalla+One&family=Sriracha&family=Montserrat:wght@700&family=Courgette&family=Tillana:wght@500&display=swap" rel="stylesheet"> 
+
     <title>Badak Gunung | Trip Bromo</title>
     <link rel="icon" href="img/logo2.png" />
   </head>
@@ -30,11 +37,11 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">PENGUMUMAN</h5>
+            <h5 class="modal-title"><b>PENGUMUMAN</b></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <p>Berdasarkan pemberlakuan kebijakan PPKM, tempat wisata di seluruh wilayah Taman Nasional Bromo Tengger Semeru untuk sementara ditutup sampai dengan adanya pemberitahuan lebih lanjut.</p>
+            <p>Berdasarkan pemberlakuan kebijakan PPKM, tempat wisata di seluruh wilayah <b>Taman Nasional Bromo Tengger Semeru</b> untuk sementara <strong><i>ditutup</i></strong> sampai dengan adanya pemberitahuan lebih lanjut.</p>
             <p>Terima kasih atas perhatiannya.</p>
           </div>
         </div>
@@ -42,10 +49,10 @@
     </div>
     
     <!-- buka navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #333">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#" style="text-transform: uppercase; font-weight: 700;">
-          <img src="img/logo2.png" alt="badakgunung-logo" width="30" height="30" class="d-inline-block align-text-center" />
+        <a class="navbar-brand" href="#">
+          <img src="img/logo2.png" alt="badakgunung-logo" class="d-inline-block align-text-center" />
           Badak Gunung | Trip Bromo
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,13 +61,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="btn tombol" href="#main-info">Beranda</a>
+              <a class="btn tombol" href="#main-info">Home</a>
             </li>
             <li class="nav-item">
               <a class="btn tombol" href="#booking">Booking</a>
             </li>
             <li class="nav-item">
-              <a class="btn tombol" href="#kontak">Hubungi Kami</a>
+              <a class="btn tombol" href="#kontak">Contact</a>
             </li>
             <li class="nav-item">
               <a class="btn btn-success" href="faq.html">FAQ</a>
@@ -75,15 +82,16 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="img/bromo.jpg">
+          <img src="img/bromo.jpg" alt="bromo">
           <div class="caption center-align">
-            <h3 id="judul">Welcome to Badak Gunung</h3>
+            <h4>Welcome to</h4>
+            <h2 id="judul">Badak Gunung</h2>
           </div>
         </li>
         <li>
-          <img src="img/bromo-savana.jpg">
-          <div class="caption left-align">
-            <p id="judul1">Travel with style!</p>
+          <img src="img/bromo-ngopi-bareng.jpg" alt="bromo-ngopi-bareng">
+          <div class="caption right-align">
+            <p>Travel with style!</p>
           </div>
         </li>
       </ul>
@@ -94,7 +102,7 @@
         <div class="container">        
           <div class="row  justify-content-center">
             <div class="col-sm-8">
-              <ul class="nav nav-pills" role="tablist">
+              <ul class="nav nav-pills nav-justified" role="tablist">
                 <li class="nav-item" role="presentation">
                   <button class="nav-link active" id="main-tab" data-bs-toggle="tab" data-bs-target="#main" type="button" role="tab" aria-controls="main" aria-selected="true">Highlight</button>
                 </li>
@@ -114,7 +122,7 @@
                   <button class="nav-link" id="itin-tab" data-bs-toggle="tab" data-bs-target="#itin" type="button" role="tab" aria-controls="itin" aria-selected="false">Itinerary</button>
                 </li>              
               </ul>
-              <div class="row justify-content-center tab-content">
+              <div class="row tab-content">
                 <div class="tab-pane fade show active" id="main" role="tabpanel" aria-labelledby="main-tab">
                   <hr>
                   <p><strong><i>Exploring the fascinating landscape of Mountain Bromo by riding 4x4 vehicle. Take amount of pictures with breathtaking views in the background.</i></strong></p>      
@@ -123,7 +131,7 @@
                 </div>
                 <div class="tab-pane fade" id="dest" role="tabpanel" aria-labelledby="home-tab">
                   <hr>
-                  <h4><strong>Destination</strong></h4>
+                  <h4><b>Destination</b></h4>
                   <ul>
                     <li><i>Sunrise View Point</i></li>
                     <li>Bukin Widodaren</li>
@@ -136,30 +144,30 @@
                 </div>
                 <div class="tab-pane fade" id="pl" role="tabpanel" aria-labelledby="pl-tab">
                   <hr>
-                  <h4><strong>Pricelist</strong></h4>               
+                  <h4><b>Pricelist</b></h4>               
                   <ul>                  
-                      <li><div>2 orang : 650.000 / orang</div></li>
-                      <li><div>3 orang : 450.000 / orang</div></li>
-                      <li><div>4 orang : 375.000 / orang</div></li>
-                      <li><div>5 orang : 300.000 / orang</div></li>
-                      <li><div>6 orang : 265.000 / orang</div></li>
+                      <li><div>2 partisipan : 650.000 / orang</div></li>
+                      <li><div>3 partisipan : 450.000 / orang</div></li>
+                      <li><div>4 partisipan : 375.000 / orang</div></li>
+                      <li><div>5 partisipan : 300.000 / orang</div></li>
+                      <li><div>6 partisipan : 265.000 / orang</div></li>
                     </ul>
                     <div><p>*<i>dalam Rupiah Indonesia</i></p></div>
                   <div><strong><i>Lebih dari 6 orang, silahkan hubungi kami</strong></i></div>
                 </div>
                 <div class="tab-pane fade" id="incl" role="tabpanel" aria-labelledby="incl-tab">
                   <hr>
-                  <h4><strong>Included</strong></h4>            
+                  <h4><b>Included</b></h4>            
                   <ul>                
                     <li>Jeep Bromo 4×4 Hardtop</li>
                     <li>Tiket masuk Taman Nasional Bromo Tengger Semeru</li>
                     <li>Snack dan air mineral</li>                  
-                    <li>50 foto Hi-Res</li>
+                    <li>25 foto Hi-Res</li>
                   </ul>
                 </div>
                 <div class="tab-pane fade" id="excl" role="tabpanel" aria-labelledby="excl-tab">
                   <hr>
-                  <h4><strong>Excluded</strong></h4>              
+                  <h4><b>Excluded</b></h4>              
                   <ul>                
                     <li>Transportasi dari dan/atau menuju Kota Malang</li>
                     <li>Penginapan (Hotel / Homestay)</li>
@@ -169,7 +177,7 @@
                 </div>
                 <div class="tab-pane fade" id="itin" role="tabpanel" aria-labelledby="itin-tab">
                   <hr>
-                  <h4><strong>Itinerary</strong></h4>              
+                  <h4><b>Itinerary</b></h4>              
                   <ul>                
                     <li>00.01 Penjemputan peserta trip di Kota Malang (<i>meeting point</i>)</li>
                     <li>00.30 Perjalanan menuju Bromo dengan mobil hardtop 4x4</li>
@@ -191,35 +199,35 @@
     </div>
     <!-- akhir main info  -->
 
-    <!-- kontak -->
     <div class="bgimg-2">
       <div class="caption">
-        <span class="border border-0" style="background-color: transparent; font-size: 25px; text-transform: uppercase; color: #f7f7f7">Radiant Rhino</span>
+        <span class="border border-0">Radiant Rhino</span>
       </div>
     </div>
 
+    <!-- kontak -->
     <div id="kontak">
       <div>
         <section>
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-sm-8">
-                <h2 class="fw-bold">Hubungi Kami</h2>
+                <h2 class="fw-bold">Contact Us</h2>
                 <hr>
               </div>
             </div>
             <div class="row justify-content-center">              
-              <div class="col-sm-4 fw-bold">                                                          
-                <p class="st-address"><i class="fa fa-map-marker"></i> Poncokusumo, Kota Malang</p>
-                <p class="st-phone"><i class="fa fa-whatsapp"></i> <a href="https://wa.me/6285157276433/?text=Hi BadakGunung! Saya mau tanya tentang" target="_blank" style="color: #ddd; text-decoration: none;">+62 851 5727 6433</a></p>
-                <p class="st-ig"><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/badakgunung/" target="_blank" style="color: #ddd; text-decoration: none;">Badak Gunung</a></p>
+              <div class="col-sm-4 fw-bold">
+                <p class="st-address"><i class="fa fa-map-marker"></i> Poncokusumo, Malang</p>
+                <p class="st-phone"><i class="fa fa-whatsapp"></i> <a href="https://wa.me/6285157276433/?text=Hi BadakGunung! Saya mau tanya tentang" target="_blank" style="color: #ddd; text-decoration: none;" data-bs-toggle="tooltip" data-bs-placement="top" title="WhatsApp">+62 851 5727 6433</a></p>
+                <p class="st-ig"><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/badakgunung/" target="_blank" style="color: #ddd; text-decoration: none;" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">Badak Gunung</a></p>
                 <hr>
               </div>
               <div class="col-sm-4">                         
-                <p class="fw-bold">Bagikan di : </p>            
-                <a href="https://twitter.com/intent/tweet?url=https://badakgunung.xyz/&text=Badak%20Gunung%20Trip%20Bromo" target="_blank" class="btn" style="color: #ddd;"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.facebook.com/sharer.php?u=https://badakgunung.xyz" target="_blank" class="btn" style="color: #ddd;""><i class="fa fa-facebook"></i></a>
-                <a href="https://api.whatsapp.com/send/?phone&text=Booking%20Trip%20Bromo%20https://badakgunung.xyz" target="_blank" class="btn" style="color: #ddd;"><i class="fa fa-whatsapp"></i></a>            
+                <p class="fw-bold">Share on : </p>            
+                <a href="https://twitter.com/intent/tweet?url=https://badakgunung.xyz/&text=Badak%20Gunung%20Trip%20Bromo" target="_blank" class="btn" style="color: #ddd;" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.facebook.com/sharer.php?u=https://badakgunung.xyz" target="_blank" class="btn" style="color: #ddd;" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone&text=Yuk%20Booking%20Trip%20Bromo%20di%20https://badakgunung.xyz" target="_blank" class="btn" style="color: #ddd;" data-bs-toggle="tooltip" data-bs-placement="top" title="WhatsApp"><i class="fa fa-whatsapp" ></i></a>            
                 <hr>
                 <p class="fw-normal"> <a href="faq.html" style="color: #ddd; text-decoration: none;">FAQ</a></p>
               </div>
@@ -233,12 +241,11 @@
     <!-- booking -->
     <div class="bgimg-3">
       <div class="caption">
-        <span class="border border-0" style="background-color: transparent; font-size: 25px; text-transform: uppercase; color: #f7f7f7">Horse Ride</span>
+        <span class="border border-0">Horse Ride</span>
       </div>
     </div>
 
     <div id="booking">
-      <div>
         <section>
           <div class="container">
             <div class="row justify-content-center">
@@ -249,13 +256,13 @@
                   <div class="row mb-2">
                     <label for="inputnama" class="col-sm-3 col-form-label">Nama Ketua</label>
                     <div class="col-sm-9">
-                      <input type="text" class="form-control" id="inputnama" placeholder="Nama Lengkap" name="nama" required>
+                      <input type="text" class="form-control" id="inputnama" placeholder="Nama Lengkap" name="nama" style="text-transform: capitalize;" required>
                     </div>
                   </div>
                   <div class="row mb-2">
                     <label class="col-sm-3 col-form-label">Jenis ID</label>
                     <div class="col-sm-9"><select class="form-control" id="inputjenisID" name="jenisID" required>
-                      <option value="">-</option><option value="KTP">KTP</option><option value="SIM">SIM</option><option value="KTM">KTM</option><option value="paspor">Passport</option></select>
+                      <option value="">-</option><option value="KTP">KTP</option><option value="SIM">SIM</option><option value="KTM">KTM</option><option value="paspor">Paspor</option></select>
                     </div>
                   </div>                            
                   <div class="row mb-2">
@@ -302,18 +309,17 @@
             </div>
           </div>
         </section>
-      </div>
     </div>
     <!-- akhir booking -->
 
     <div class="bgimg-4">
       <div class="caption">
-        <span class="border border-0" style="font-size: 25px; text-transform: uppercase; color: #f7f7f7; background-color: rgba(0, 0, 0, 0.2)">Enjoy the Trip!</span>
+        <span class="border border-0">Balance your life!</span>
       </div>
     </div>
 
     <!-- buka footer -->
-    <footer style="background-color: transparent; padding-top: 10px;">
+    <footer style="background-color: transparent">
       <div class="container">
         <p>© 2021 Badak Gunung</p>
       </div>

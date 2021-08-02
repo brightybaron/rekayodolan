@@ -27,7 +27,7 @@ const slider = document.querySelectorAll(".slider");
 M.Slider.init(slider, {
   indicators: false,
   height: 625,
-  transition: 700,
+  transition: 500,
   interval: 3000,
 });
 
