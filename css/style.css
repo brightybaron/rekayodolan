@@ -1,22 +1,22 @@
 body,
 html {
   height: 100%;
-  color: #777;
 }
 
 .navbar {
   background-color: #333;
   padding: 0.3rem 0rem;
 }
-.navbar-brand {
-  font-size: 1rem;
-  font-weight: 600;
+.navbar-dark .navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
   text-transform: uppercase;
+  color: #eeeeee;
 }
 
 .navbar-brand img {
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
 }
 
 .navbar-toggler {
@@ -29,11 +29,10 @@ html {
 }
 
 .nav-item {
-  margin: 2px;
+  margin: 1px;
 }
 
 #main-info {
-  background-color: whitesmoke;
   color: #777;
   padding-top: 3.75rem;
   padding-bottom: 1rem;
@@ -42,11 +41,20 @@ html {
 
 #kontak,
 #booking {
-  background-color: #282e34;
-  color: #ddd;
+  background-color: #232630;
+  color: #e3e7eb;
   padding-top: 3rem;
   padding-bottom: 1rem;
   position: relative;
+}
+
+#kontak a {
+  color: #e3e7eb;
+  text-decoration: none;
+}
+
+#kontak a:hover {
+  color: #bbbbbb;
 }
 
 #faqc {
@@ -86,44 +94,28 @@ html {
   min-height: 100%;
 }
 
-.bgimg-2 .caption span.border {
-  background-color: transparent;
-  font-size: 25px;
-  text-transform: uppercase;
-  color: #f7f7f7;
-}
-
-.bgimg-3 .caption span.border {
-  background-color: transparent;
-  font-size: 25px;
-  text-transform: uppercase;
-  color: #f7f7f7;
-}
-
-.bgimg-4 .caption span.border {
-  background-color: transparent;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  color: #f7f7f7;
-  font-family: "Sriracha", cursive;
-}
-
 .caption {
   position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #f7f7f7;
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
+  color: #f7f7f7;
   text-shadow: 3px 3px 5px black;
-  padding: 10px;
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: 10px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.bgimg-4 .caption span.border {
+  font-family: "Sriracha", cursive;
+  position: relative;
+  top: 50px;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
@@ -215,12 +207,13 @@ html {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #111;
 }
 
 .slider .slides li .caption h2 {
   font-family: "Bad Script", cursive;
+  font-size: 27px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 3px;
@@ -232,32 +225,6 @@ html {
   z-index: 2;
 }
 
-.slider .indicators {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-}
-
-.slider .indicators .indicator-item {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  height: 16px;
-  width: 16px;
-  margin: 0 12px;
-  background-color: #e0e0e0;
-  -webkit-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-  border-radius: 50%;
-}
-
-.slider .indicators .indicator-item.active {
-  background-color: #4caf50;
-}
-
 .left-align {
   text-align: left;
 }
@@ -267,9 +234,15 @@ html {
 }
 
 .btn {
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 1.5rem;
+  color: #e6e6e6;
+  font-weight: bold;
 }
-.tombol {
+
+.btn:hover {
+  color: #fff;
+}
+/* .tombol {
   color: white;
   background-color: gray;
   font-weight: 400;
@@ -278,6 +251,18 @@ html {
   color: #fff;
   background-color: #5c636a;
   border-color: #565e64;
+} */
+
+.btn-submit {
+  color: #ffffff;
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
 }
 
 .btn-success {
@@ -291,17 +276,19 @@ html {
   border-color: #146c43;
 }
 
+/* tabs main info */
 .nav-link {
-  color: #777;
-}
-
-.nav-link:focus,
-.nav-link:hover {
-  color: black;
+  color: #777777;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
+  color: white;
+  background-color: #5c636a;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link:hover {
   color: white;
   background-color: #5c636a;
 }
