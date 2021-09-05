@@ -32,5 +32,5 @@ M.Slider.init(slider, {
 });
 
 // modal
-var myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
-myModal.toggle();
+// var myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
+// myModal.toggle();
