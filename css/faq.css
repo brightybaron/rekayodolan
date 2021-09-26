@@ -1,0 +1,37 @@
+header {
+  background-color: #58555a;
+}
+
+header h2,
+header h6 a {
+  color: white;
+}
+
+/* footer */
+footer a,
+footer .btn {
+  color: black;
+}
+
+footer a:hover,
+footer .btn:hover {
+  color: darkgray;
+}
+
+footer h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1024.1px) {
+  .share {
+    padding-top: 1rem;
+  }
+
+  .row.contact {
+    padding: 0 0.25rem;
+  }
+}

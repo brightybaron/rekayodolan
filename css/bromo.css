@@ -1,0 +1,182 @@
+body {
+  background-color: #f6f6f6;
+}
+
+/* navbar */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 1.5rem;
+  color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  padding: 0 1.5rem;
+  color: #577356;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #577356;
+}
+
+@media (max-width: 1024.1px) {
+  .navbar {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: black;
+  }
+}
+
+/* change img carousel size */
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item .img-2 {
+  object-position: center -550px;
+}
+
+@media (max-width: 1024.1px) {
+  .carousel-item img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .carousel-item .img-1 {
+    object-position: center;
+  }
+
+  .carousel-item .img-2 {
+    object-position: center;
+  }
+}
+
+/* main info */
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  width: 100%;
+  color: black;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link:hover {
+  color: white;
+  background-color: #7b8c79;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white;
+  background-color: #577356;
+}
+
+/* price-box */
+.price-box {
+  height: 100px;
+  background-color: white;
+  padding: 30px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+/* booking */
+.bi-tag::before {
+  content: "\f5b0";
+  transform: rotateY(180deg);
+}
+
+.btn-submit {
+  background-color: #577356;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  color: #577356;
+  background-color: white;
+  border-color: #577356;
+}
+
+@media (max-width: 576px) {
+  .form-booking {
+    margin-top: 1.5rem;
+  }
+}
+
+/* footer */
+footer a,
+footer .btn {
+  color: black;
+}
+
+footer a:hover,
+footer .btn:hover {
+  color: darkgray;
+}
+
+footer h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1024.1px) {
+  .share {
+    padding-top: 1rem;
+  }
+
+  .row.contact {
+    padding: 0 0.25rem;
+  }
+}
+
+/* video */
+.video {
+  width: 90%;
+  height: 525px;
+  margin: 0 auto;
+}
+
+.embed {
+  position: relative;
+  height: 525px;
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 767.1px) {
+  .video {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .embed {
+    position: relative;
+    height: 250px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 225px;
+  }
+}
