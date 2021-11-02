@@ -2,6 +2,10 @@ header {
   background-color: #58555a;
 }
 
+header h6 a:hover {
+  color: #bada55;
+}
+
 header h2,
 header h6 a {
   color: white;
@@ -10,12 +14,12 @@ header h6 a {
 /* footer */
 footer a,
 footer .btn {
-  color: black;
+  color: white;
 }
 
 footer a:hover,
 footer .btn:hover {
-  color: darkgray;
+  color: black;
 }
 
 footer h5 {
